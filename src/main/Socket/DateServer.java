@@ -18,7 +18,7 @@ public class DateServer {
         System.out.println("client has connected");
 
 
-        PrintWriter outputToClient = new PrintWriter(clientSocket.getOutputStream(), true);
+        PrintWriter outputToClient = new PrintWriter(clientSocket.getOutputStream(), true); // hvorfor true????????
 
         outputToClient.println("Today is " + LocalDateTime.now().toString());
 
