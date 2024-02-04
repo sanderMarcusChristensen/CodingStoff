@@ -14,7 +14,7 @@ public class DateServer {
 
         ServerSocket serversocket = new ServerSocket(PORT);
         System.out.println("waiting for client........");
-        Socket clientSocket = serversocket.accept();
+        Socket clientSocket = serversocket.accept();        // vores "tjener" der løber frem og tilbage
         System.out.println("client has connected");
 
 
