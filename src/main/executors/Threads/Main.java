@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Thread name: " + name );
 
 
-        Task1 task1 = new Task1();
+        Task1Exe task1 = new Task1Exe();
         Thread thread1 = new Thread(task1);              // Thread takes a Runnable class
         thread1.start();                                 // this will run in the background
 
