@@ -1,6 +1,7 @@
-package Threads;
+package ThreadsWithExe;
 
-import executors.Threads.Task1Exe;
+import ThreadsWithExe.Threads.Task1;
+import ThreadsWithExe.Threads.Task3;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,10 +18,10 @@ public class Main {
         System.out.println("Thread name: " + name);
 
         for (int i = 0; i < 10; i++) {
-            executorService.submit(new Task1Exe());        //Makes a thread and run's it
+            executorService.submit(new Task1());        //Makes a thread and run's it
 
         }
-        executorService.submit(new Task2());
+        executorService.submit(new Task2Exe());
 
         Task3 task3 = new Task3();
         executorService.submit(new Task3());

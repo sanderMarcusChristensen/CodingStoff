@@ -1,4 +1,4 @@
-package executors.Threads;
+package ThreadsWithExe.Threads;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Thread name: " + name );
 
 
-        Task1Exe task1 = new Task1Exe();
+        Task1 task1 = new Task1();
         Thread thread1 = new Thread(task1);              // Thread takes a Runnable class
         thread1.start();                                 // this will run in the background
 

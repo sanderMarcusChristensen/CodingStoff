@@ -1,6 +1,6 @@
-package executors.Threads;
+package ThreadsWithExe.Threads;
 
-public class Task1Exe implements Runnable
+public class Task1 implements Runnable
 {
 
     @Override

@@ -1,4 +1,4 @@
-package Socket;
+package BitsAndByte.Socket;
 
 import javax.imageio.IIOException;
 import java.io.BufferedReader;

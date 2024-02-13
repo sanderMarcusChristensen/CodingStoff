@@ -1,6 +1,6 @@
-package executors.Threads;
+package ThreadsWithExe;
 
-public class Task2 implements Runnable {
+public class Task2Exe implements Runnable {
 
     @Override
     public void run() {

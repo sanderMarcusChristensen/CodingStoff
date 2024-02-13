@@ -1,6 +1,6 @@
-package Threads;
+package ThreadsWithExe;
 
-public class Task3 implements Runnable {
+public class Task3Exe implements Runnable {
 
     private boolean running = true;
 

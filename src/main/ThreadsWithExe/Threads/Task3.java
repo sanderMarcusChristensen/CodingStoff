@@ -1,4 +1,4 @@
-package executors.Threads;
+package ThreadsWithExe.Threads;
 
 public class Task3 implements Runnable {
 

@@ -1,6 +1,6 @@
-package Threads;
+package ThreadsWithExe;
 
-public class Task1 implements Runnable
+public class Task1Exe implements Runnable
 {
 
     @Override

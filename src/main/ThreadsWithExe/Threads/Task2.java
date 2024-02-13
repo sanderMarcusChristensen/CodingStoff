@@ -1,4 +1,4 @@
-package Threads;
+package ThreadsWithExe.Threads;
 
 public class Task2 implements Runnable {
 

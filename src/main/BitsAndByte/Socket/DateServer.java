@@ -1,4 +1,4 @@
-package Socket;
+package BitsAndByte.Socket;
 
 import java.io.IOException;
 import java.io.PrintWriter;
