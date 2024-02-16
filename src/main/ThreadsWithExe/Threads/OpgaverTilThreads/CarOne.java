@@ -1,6 +1,6 @@
 package ThreadsWithExe.Threads.OpgaverTilThreads;
 
-public class Tråd1 implements Runnable{
+public class CarOne implements Runnable{
     @Override
     public void run() {
 
