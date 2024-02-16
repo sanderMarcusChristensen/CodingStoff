@@ -17,13 +17,14 @@ public class Main {
         String name = Thread.currentThread().getName();
         System.out.println("Thread name: " + name);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             executorService.submit(new Task1());        //Makes a thread and run's it
 
         }
+        /*
         executorService.submit(new Task2Exe());
 
-        Task3 task3 = new Task3();
+        //Task3 task3 = new Task3();
         executorService.submit(new Task3());
 
 
@@ -33,8 +34,10 @@ public class Main {
         System.out.println("Stopping the main thread");     // Main will run as we are used to
 
         System.out.println("Killing Task 3 - from the outside");
-        task3.stopTask();
+        //task3.stopTask();
         executorService.shutdown();     //always remember to shut down your executorService
+
+         */
 
 
 
