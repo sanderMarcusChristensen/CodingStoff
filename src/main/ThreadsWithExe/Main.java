@@ -21,7 +21,7 @@ public class Main {
             executorService.submit(new Task1());        //Makes a thread and run's it
 
         }
-        /*
+
         executorService.submit(new Task2Exe());
 
         //Task3 task3 = new Task3();
@@ -37,7 +37,7 @@ public class Main {
         //task3.stopTask();
         executorService.shutdown();     //always remember to shut down your executorService
 
-         */
+
 
 
 
